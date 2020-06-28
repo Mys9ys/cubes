@@ -21,6 +21,4 @@ const battleReducer = (state = initialState, action) => {
 
 export const battleStart = (mob) => ({type: BATTLE_START,newPostText:newPostText});
 
-
-
 export default battleReducer
